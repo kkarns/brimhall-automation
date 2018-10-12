@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<brimhall_automation>
+    
+    <serverInstance01>devserver-a-link</serverInstance01>
+    <serverInstance02>staging-a-link</serverInstance02>
+    <serverInstance03>dbserver-link</serverInstance03>
+    <serverInstance04>testserver-link</serverInstance04>
+    <serverInstance05>graphics-a-linnk</serverInstance05>
+    <serverInstance06>developers-b-link</serverInstance06>
+    <serverInstance07>database-b-link</serverInstance07>
+    <serverInstance08>graphics-b-link</serverInstance08>
+    <serverInstance09>developers-c-link</serverInstance09>
+    <serverInstance10>developers-d-link</serverInstance10>
+    <serverInstance11>graphics-prod-link</serverInstance11>
+    <serverInstance12>database-d-link</serverInstance12>
+    
+   
+    <outputServer>mgmt-server</outputServer>
+    <outputDatabaseName>master</outputDatabaseName>
+    <outputServerUser>batman</outputServerUser>
+    <outputInstance>mgmt-server\prod</outputInstance>
+    <credentialsFileDest>credentials-mgmt-server.txt</credentialsFileDest>
+    <outputSchemaName>dbo</outputSchemaName>
+    <outputTableName>DefTracePermissions</outputTableName>
+   
+</brimhall_automation>
+<!-- Memo to Operator - database passwords are in the $MyDir directory in credentials-xyz.txt -->
+<!--   see https://blogs.technet.microsoft.com/robcost/2008/05/01/powershell-tip-storing-and-using-password-credentials/ -->
